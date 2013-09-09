@@ -1,4 +1,4 @@
-embedly-l4
+# Embedly PHP API Library for Laravel 4
 ====================
 
 Embedly PHP api integration for laravel 4
