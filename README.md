@@ -22,3 +22,15 @@ Embedly PHP api integration for laravel 4
 ```
 "embedly/embedly-php": "dev-master"
 ```
+
+Then, in config/app.php add this line to your 'providers' array.
+
+```php
+'Rafpro\EmbedlyL4\EmbedlyL4ServiceProvider',
+```
+
+Then, to install it's configuration file.
+
+```php
+php artisan config:publish rafpro/embedly-l4
+```
